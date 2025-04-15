@@ -1,0 +1,14 @@
+name: research_notebooks
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9  # Or your preferred Python version
+  - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pip:
+    - some_other_package==1.2.3
+    - another_specific_package>=2.0
