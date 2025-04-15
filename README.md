@@ -7,23 +7,6 @@ This repository contains Jupyter/Colab notebooks with the code used in my resear
 
 ## Repository Structure
 
-├── papers/
-│   ├── paper_title_1/
-│   │   ├── notebook_1.ipynb
-│   │   ├── paper.pdf    
-│   │   └── ... other related files
-│   ├── paper_title_2/
-│   │   ├── analysis.ipynb
-│   │   └── data/
-│   │       └── ...
-│   └── ...
-├── environment.yml     
-├── requirements.txt   
-├── CONTRIBUTING.md      
-├── LICENSE            
-└── README.md            
-
-
 * **`papers/`**: This directory houses subdirectories, each corresponding to a specific research paper. The subdirectory name should ideally be related to the paper's title or a unique identifier.
 * **`papers/paper_title_X/`**: Within each paper's directory, you'll find the Jupyter/Colab notebooks (`.ipynb` files) containing the code, along with any necessary data files or a specific `README.md` providing context for that paper's notebooks.
 * **`environment.yml`**: A YAML file specifying the conda environment used to run the notebooks. This ensures reproducibility by listing all necessary Python packages and their versions.
